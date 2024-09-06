@@ -2,7 +2,7 @@ import React from 'react'
 import { colors, buttonSizes } from '../../styles/theme.js';
 import './button.css'
 
-const Button = ({ children, onClick, variant = 'primary', size = 'medium'}) => {
+const Button = ({ children, onClick, variant = 'primary', size = 'medium', icon}) => {
     const getButtonStyle = () => {
         const sizeStyles = buttonSizes[size];
       
@@ -33,6 +33,7 @@ const Button = ({ children, onClick, variant = 'primary', size = 'medium'}) => {
             onClick={onClick}
             style={getButtonStyle()}
         >
+            {icon && <img src={icon} alt="Ícone" />}
             {children}
         </button>
     );

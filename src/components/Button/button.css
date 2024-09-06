@@ -1,11 +1,11 @@
 .custom-button {
     border: none;
+    display: flex;
+    align-items: center;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     cursor: pointer;
-    margin-top: var(--top, 0);
-    margin-left: var(--left, 0);
 }
   
 .custom-button:hover {

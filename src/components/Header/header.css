@@ -1,0 +1,27 @@
+.custom-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-header-logo {
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-bar {
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}

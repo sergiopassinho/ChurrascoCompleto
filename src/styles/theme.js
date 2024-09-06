@@ -19,42 +19,42 @@ export const gradients = {
 
 export const buttonSizes = {
     extraLarge: {
-        width: '226px',
+        // width: '226px',
         height: '60px',
         top: '133px',
         left: '64px',
         borderRadius: '51px',
-        padding: '12px, 24px',
+        padding: '12px 24px',
         gap: '10px',
         fontSize: '20px'
     },
     large: {
-        width: '167px',
+        // width: '167px',
         height: '52px',
         top: '137px',
         left: '316px',
         borderRadius: '30px',
-        padding: '12px, 24px',
+        padding: '12px 24px',
         gap: '10px',
         fontSize: '16px'
     },
     medium: {
-        width: '157px',
+        // width: '157px',
         height: '42px',
         top: '141px',
         left: '534px',
-        padding: '10px 18px 10px 18px',
+        padding: '10px 18px',
         gap: '10px',
         borderRadius: '38px',
         fontSize: '16px'
     },
     small: {
-        width: '127px',
+        // width: '127px',
         height: '32px',
         top: '147px',
         left: '752px',
         borderRadius: '45px',
-        padding: '8px, 16px',
+        padding: '8px 16px',
         gap: '10px',
         fontSize: '12px'
     }
