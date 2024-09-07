@@ -1,6 +1,6 @@
-import React from 'react'
+import './button.css';
+import React from 'react';
 import { colors, buttonSizes } from '../../styles/theme.js';
-import './button.css'
 
 const Button = ({ children, onClick, variant = 'primary', size = 'medium', icon}) => {
     const getButtonStyle = () => {

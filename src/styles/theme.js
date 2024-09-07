@@ -5,11 +5,27 @@ export const colors = {
     neutralPrimary: '#fdf9f4',
     neutralSecondary: '#C3C3C3',
     neutralTertiary: '#616060'
-}
+};
 
 export const fontColors = {
     headingFont: '#1F1F1F',
     paragraphFont: '#0F0808',
+};
+
+export const typography = {
+    fontFamily: 'Open Sans, sans-serif',
+    headingPrimary: {
+        fontWeight: 900
+    },
+    headingSecondary: {
+        fontWeight: 600
+    },
+    paragraphPrimary: {
+        fontWeight: 600
+    },
+    paragraphSecondary: {
+        fontWeight: 300
+    }
 };
 
 export const gradients = {
@@ -58,4 +74,4 @@ export const buttonSizes = {
         gap: '10px',
         fontSize: '12px'
     }
-}
+};

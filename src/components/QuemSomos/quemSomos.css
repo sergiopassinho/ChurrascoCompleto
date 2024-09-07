@@ -1,0 +1,52 @@
+.welcome-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.img {
+    max-width: 900px;
+    padding-right: 50px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+}
+
+.benefits {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5%;
+    gap: 40px;
+}
+
+.benefits-descriptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits-descriptions p {
+    display: flex;
+    margin-top: 2%;
+}
+
+.characteristics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.characteristics-descriptions {
+    max-width: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
