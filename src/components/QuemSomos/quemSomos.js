@@ -35,11 +35,11 @@ const QuemSomos = () => {
             <div className='description'>
                 <img className='img' src={quemSomos} alt='Imagem de uma carne temperada'/>
                 <div style={{display: 'flex', flexDirection: 'column'}}>
-                    <p style={{color: fontColors, fontWeight: typography.headingSecondary.fontWeight, fontSize: '16px'}}>Somos o frigorífico e comercio onde você encontra tudo para o seu churrasco. <br />
+                    <p style={{color: fontColors, fontWeight: typography.headingSecondary.fontWeight, fontSize: '16'}}>Somos o frigorífico e comercio onde você encontra tudo para o seu churrasco. <br />
                         Oferecemos carnes nobres e uma variedade de produtos essenciais para preparar uma refeição completa. 
                         Combinamos qualidade e conveniência em um só lugar, para que você tenha a melhor experiência. 
                     </p>            
-                    <div class="benefits">
+                    <div className="benefits">
                         <img src={grill} alt='Icone de churrasqueira' />
                         <div className='benefits-descriptions'>
                             <h3 style={{
