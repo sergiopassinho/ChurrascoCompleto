@@ -9,7 +9,7 @@ import { colors } from '../../styles/theme';
 
 const Header = () => {
     return (
-      <header className='custom-header'> 
+      <header className='custom-header' style={{background: colors.neutralPrimary}}> 
         <div className='custom-header-logo'>
             <div>
                 <img src={logoHeader} alt="Logo do Projeto"  />

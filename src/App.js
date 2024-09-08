@@ -2,12 +2,16 @@ import './App.css';
 import React from 'react';
 import Header from './components/Header/header';
 import QuemSomos from './components/QuemSomos/quemSomos.js';
+import Products from './components/Products/products.js';
 
 function App() {
   return (
     <>
-      <Header />
+      <div style={{position: 'sticky', top: '-1px', zIndex: 10}}>
+        <Header />
+      </div>
       <QuemSomos />
+      <Products />
     </>
   );
 }

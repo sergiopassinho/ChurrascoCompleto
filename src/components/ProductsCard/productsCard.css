@@ -1,0 +1,35 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carousel-button {
+    width: 72px;
+    height: 72px;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.product-card {
+    height: 296px;
+    width: 192px;
+    border-radius: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
