@@ -4,6 +4,7 @@ import Header from './components/Header/header';
 import QuemSomos from './components/QuemSomos/quemSomos.js';
 import Products from './components/Products/products.js';
 import Location from './components/Location/location.jsx';
+import Comments from './components/Comments/comments.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <QuemSomos />
       <Products />
       <Location />
+      <Comments />
     </>
   );
 }
