@@ -5,6 +5,7 @@ import QuemSomos from './components/QuemSomos/quemSomos.js';
 import Products from './components/Products/products.js';
 import Location from './components/Location/location.jsx';
 import Comments from './components/Comments/comments.jsx';
+import Order from './components/Order/order.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Products />
       <Location />
       <Comments />
+      <Order />
     </>
   );
 }

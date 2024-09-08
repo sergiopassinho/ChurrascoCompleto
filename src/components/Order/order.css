@@ -1,0 +1,18 @@
+.order-container {
+    height: 80vh;
+    margin-left: 15%;
+}
+
+.order-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.order-content-descriptions {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}

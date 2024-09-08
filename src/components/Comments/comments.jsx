@@ -29,7 +29,7 @@ const Comments = () => {
                     >
                         "As carnes são de uma qualidade excepcional, e o atendimento é sempre atencioso!"
                     </h2>
-                    <img src={stars} />   
+                    <img src={stars} alt='cinco estrelas'/>   
                 </div>
             </div>
         </section>
