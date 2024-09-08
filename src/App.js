@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header/header';
 import QuemSomos from './components/QuemSomos/quemSomos.js';
 import Products from './components/Products/products.js';
+import Location from './components/Location/location.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </div>
       <QuemSomos />
       <Products />
+      <Location />
     </>
   );
 }
