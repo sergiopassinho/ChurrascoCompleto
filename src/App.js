@@ -7,6 +7,7 @@ import Location from './components/Location/location.jsx';
 import Comments from './components/Comments/comments.jsx';
 import Order from './components/Order/order.jsx';
 import Footer from './components/Footer/footer.jsx';
+import Banner from './components/Banner/banner.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div style={{position: 'sticky', top: '-1px', zIndex: 10}}>
         <Header />
       </div>
+      <Banner />
       <QuemSomos />
       <Products />
       <Location />
