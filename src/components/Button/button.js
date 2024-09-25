@@ -2,7 +2,7 @@ import './button.css';
 import React from 'react';
 import { colors, buttonSizes } from '../../styles/theme.js';
 
-const Button = ({ children, onClick, variant = 'primary', size = 'medium', icon}) => {
+const Button = ({ children, onClick, variant = 'primary', size, icon, componentClassName}) => {
     const getButtonStyle = () => {
         const sizeStyles = buttonSizes[size];
       
@@ -27,9 +27,13 @@ const Button = ({ children, onClick, variant = 'primary', size = 'medium', icon}
         };
     };
 
+    const baseClass = 'custom-button';
+    const customComponentClassName = componentClassName ?? '';
+    const className = `${baseClass} ${customComponentClassName}`.trim();
+
     return (
         <button
-            className='custom-button'
+            className={className}
             onClick={onClick}
             style={getButtonStyle()}
         >

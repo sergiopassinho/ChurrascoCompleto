@@ -12,9 +12,17 @@
     margin-right: 15%;
 }
 
-.header-buttons {
+.header-buttons-container {
     display: flex;
     gap: 60px;
+}
+
+.header-buttons {
+    height: 52px;
+    border-radius: 30px;
+    padding: 12px 24px;
+    gap: 10px;
+    font-size: 16px;
 }
 
 .nav-bar {
@@ -24,4 +32,104 @@
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+.logo-header {
+    width: 228px; 
+    height: auto; 
+}
+
+@media (max-width: 1024px) {
+    .custom-header-logo {
+        height: 90px; 
+        margin-left: 10%; 
+        margin-right: 10%;
+    }
+
+    .header-buttons-container {
+        gap: 40px; 
+    }
+
+    .nav-bar {
+        height: 60px; 
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .logo-header {
+        width: 150px; 
+    }
+
+    .header-buttons {
+        height: 48px; 
+        top: 120px; 
+        left: 250px; 
+        border-radius: 28px; 
+        padding: 10px 20px; 
+        gap: 8px; 
+        font-size: 14px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .custom-header-logo {
+        height: 80px; 
+        margin-left: 8%; 
+        margin-right: 8%;
+    }
+
+    .header-buttons-container {
+        gap: 20px; 
+    }
+
+    .nav-bar {
+        height: 50px; 
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .logo-header {
+        width: 120px; 
+    }
+
+    .header-buttons {
+        height: 50px;
+        width: 170px; 
+        border-radius: 25px; 
+        padding: 16px 12px; 
+        gap: 6px; 
+        font-size: 11px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-header-logo {
+        height: 60px; 
+        margin-left: 5%; 
+        margin-right: 5%;
+    }
+
+    .header-buttons-container {
+        gap: 10px; 
+    }
+
+    .nav-bar {
+        height: 40px; 
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .logo-header {
+        width: 100px; 
+    }
+
+    .header-buttons {
+        height: 25px;
+        width: 100px; 
+        border-radius: 20px; 
+        padding: 16px 12px;
+        gap: 4px; 
+        font-size: 8px;
+    }
 }

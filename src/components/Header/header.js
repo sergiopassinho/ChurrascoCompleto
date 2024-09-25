@@ -12,13 +12,13 @@ const Header = () => {
       <header className='custom-header' style={{background: colors.neutralPrimary}}> 
         <div className='custom-header-logo'>
             <div>
-                <img src={logoHeader} alt="Logo do Projeto"  />
+                <img className='logo-header' src={logoHeader} alt="Logo do Projeto"  />
             </div>
-            <div className='header-buttons'>
-                <Button variant='secondary' size='large' icon={monitorHeader}>
+            <div className='header-buttons-container'>
+                <Button componentClassName='header-buttons' variant='secondary' icon={monitorHeader}>
                     Acesso ao Sistema
                 </Button>
-                <Button variant='secondary' size='large' icon={cartHeader}>
+                <Button componentClassName='header-buttons' variant='secondary' icon={cartHeader}>
                     Faça seu pedido
                 </Button>
             </div>
