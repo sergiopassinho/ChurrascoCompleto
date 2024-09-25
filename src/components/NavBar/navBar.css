@@ -1,3 +1,8 @@
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
 .navbar-links a {
     text-decoration: none;
     color: #fff;
@@ -17,4 +22,46 @@
   
 .navbar-icon a:hover {
     color: #ccc;
+}
+
+@media (max-width: 1024px) {
+    .navbar-links a {
+        font-size: 12px;
+    }
+
+    .navbar-links span {
+        font-size: 12px;
+    }
+
+    .navbar-icon a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-links a {
+        font-size: 10px;
+    }
+
+    .navbar-links span {
+        font-size: 10px;
+    }
+
+    .navbar-icon a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-links a {
+        font-size: 8px;
+    }
+
+    .navbar-links span {
+        font-size: 8px;
+    }
+
+    .navbar-icon a {
+        font-size: 16px;
+    }
 }

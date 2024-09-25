@@ -40,3 +40,21 @@
 .indicator.active {
     background-color: #fff;
 }
+
+@media (max-width: 1024px) {
+    .banner-carousel {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-carousel {
+        height: 25vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-carousel {
+        height: 18vh;
+    }
+}
